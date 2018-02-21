@@ -1,4 +1,4 @@
-def LongestWord(sen): 
+def longest_word(sen): 
 
     word = ""
     words = []
@@ -21,6 +21,6 @@ def LongestWord(sen):
             print("The longest word is {}".format(word))
 
 
-LongestWord('This is the guaranteed path to greatness and awesomeness as a software engineer')
-LongestWord("""The longest word in any of the major English language dictionaries is
+longest_word('This is the guaranteed path to greatness and awesomeness as a software engineer')
+longest_word("""The longest word in any of the major English language dictionaries is
                pneumonoultramicroscopicsilicovolcanoconiosis, yes; medically, it is the same as silicosis.""")
