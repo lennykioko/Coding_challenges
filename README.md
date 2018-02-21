@@ -16,4 +16,4 @@ Lenny Kioko.
 All the wonderful people who have supported me along the way...thank you.
 
 ### License
-The app uses an MIT license
+The repo uses an MIT license
