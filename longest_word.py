@@ -1,15 +1,5 @@
 def longest_word(sen): 
-
-    word = ""
-    words = []
-    sen = sen.lower()
-    sen += '.'
-    for char in sen:
-        if char in "abcdefghijklmnopqrstuvwxyz":
-            word = word + char
-        else:
-            words.append(word)
-            word = ""
+    words = sen.split()
         
     sizes = {}
     for word in words:
