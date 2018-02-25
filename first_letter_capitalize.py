@@ -10,7 +10,7 @@ def first_letter_capitalize(string):
 
 print(first_letter_capitalize("good boy gone wild"))
 
-# alternative solution
+# alternative solution (has some issues)
 def first_letter_capitalize_2(string):
     string = string.split()
     for word in string:
