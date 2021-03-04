@@ -28,7 +28,7 @@ class LinkedList:
         while current is not None:
             if current is self.head:
                 nodes.append(f'H{current}')
-            elif current is self.tail and current is not self.head:
+            elif current.next_node is None and current is not self.head:
                 nodes.append(f'{current}T')
             else:
                 nodes.append(f'{current}')
@@ -70,4 +70,5 @@ def removeduplicates(linked_list):
     return linked_list
 
 
-print(removeduplicates(mylinked))
+removeduplicates(mylinked)
+print(mylinked)
